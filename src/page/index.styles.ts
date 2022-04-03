@@ -37,14 +37,15 @@ export const Wraper = styled.div`
     font-size: 2rem;
     margin-top: -20px;
     margin-bottom: 20px;
+    font-family: "Pacifico", cursive;
   }
 
   h1 {
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    /* background-image: linear-gradient(180deg, #fff, #87f1ff); */
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-size: 4rem;
-    color: #0085a3;
+    color: #fff;
     border-radius: 5px;
     background-size: 100%;
     background-clip: text;
