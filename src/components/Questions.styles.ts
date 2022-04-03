@@ -12,6 +12,8 @@ export const Wrapper = styled.div`
 
   p {
     font-size: 1.3rem;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
   }
 `;
 
@@ -30,7 +32,9 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
   button {
     cursor: pointer;
     user-select: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
     width: 100%;
     height: 40px;
     margin: 5px 0;

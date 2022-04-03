@@ -85,7 +85,11 @@ const QuisPage = () => {
           </button>
         ) : null}
         {!gameOver ? <p className="score">Score : {score}</p> : null}
-        {loading && <p>Loading Question</p>}
+        {loading && (
+          <p className="loading">
+            Please Wait <br /> Loading Question...
+          </p>
+        )}
         {!loading && !gameOver && (
           <QuestionCard
             questionsNumber={number + 1}

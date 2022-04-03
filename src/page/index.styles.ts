@@ -32,10 +32,18 @@ export const Wraper = styled.div`
     font-weight: 400;
   }
 
+  .loading {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Pacifico", cursive;
+    text-align: center;
+  }
+
   .score {
     color: #fff;
     font-size: 2rem;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: 20px;
     font-family: "Pacifico", cursive;
   }
@@ -66,7 +74,7 @@ export const Wraper = styled.div`
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     height: 40px;
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 0 40px;
   }
 
