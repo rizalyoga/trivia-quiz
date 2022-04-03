@@ -78,7 +78,7 @@ const QuisPage = () => {
     <>
       <GlobalStyle />
       <Wraper>
-        <h1>React Quis APP</h1>
+        <h1>Trivia Quis APP</h1>
         {gameOver || userAnswer.length === TOTAL_QUESTIONS ? (
           <button className="start" onClick={startTrivia}>
             Start
